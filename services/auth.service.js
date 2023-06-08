@@ -91,6 +91,7 @@ const resetPassword = async (userId, token, password) => {
   );
 
   await passwordResetToken.deleteOne();
+  
 
   return { message: "Password reset was successful" };
 };

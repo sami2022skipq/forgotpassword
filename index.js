@@ -5,7 +5,7 @@ const express = require("express");
 const app = express();
 const connection = require("./db");
 const cors = require("cors");
-const port = 8080;
+const port = 4000;
 
 (async function db() {
   await connection();
